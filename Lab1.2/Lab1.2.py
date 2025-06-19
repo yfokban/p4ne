@@ -6,7 +6,7 @@ import openpyxl
 from matplotlib import pyplot
 from openpyxl import load_workbook
 
-excel = load_workbook('C:\\Работка\\Python learning\\data_analysis_lab.xlsx')
+excel = load_workbook('data_analysis_lab.xlsx')
 
 sheet = excel['Data'] #Import Data sheet
 
